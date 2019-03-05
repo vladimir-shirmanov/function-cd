@@ -13,5 +13,5 @@ steps:
   inputs:
     solution: '**/*.sln'
     configuration: $(buildConfiguration)
-- script: ls $(Agent.BuildDirectory)
+- script: ls $(Build.StagingDirectory)
   displayName: 'Show build directory content'

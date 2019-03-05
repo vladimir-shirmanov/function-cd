@@ -13,5 +13,5 @@ steps:
   inputs:
     solution: '**/*.sln'
     configuration: $(buildConfiguration)
-- script: ls '$(Build.SourcesDirectory)/bin/Release'
+- script: ls '$(Build.SourcesDirectory)'
   displayName: 'Show build directory content'

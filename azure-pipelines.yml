@@ -9,5 +9,6 @@ steps:
   inputs:
     command: publish
     arguments: -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+    projects: '**/*.csproj'
 - script: ls $(Build.ArtifactStagingDirectory)
   displayName: 'List artifact folder content'

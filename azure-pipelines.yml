@@ -9,6 +9,8 @@ steps:
   inputs:
     command: publish
     arguments: -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+    publishWebProjects: false
+    zipAfterPublish: true
     projects: '**/*.csproj'
 - script: ls $(Build.ArtifactStagingDirectory)
   displayName: 'List artifact folder content'

@@ -9,5 +9,5 @@ steps:
   inputs:
     command: publish
     arguments: -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
-- task:
-    script: ls $(Build.ArtifactStagingDirectory)
+- script: ls $(Build.ArtifactStagingDirectory)
+  displayName: 'List artifact folder content'

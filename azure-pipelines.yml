@@ -13,5 +13,6 @@ steps:
   inputs:
     solution: '**/*.sln'
     configuration: $(buildConfiguration)
+    msbuildArgs: \p:OutputPath=$(Build.StagingDirectory)
 - script: ls $(Build.StagingDirectory)
   displayName: 'Show build directory content'

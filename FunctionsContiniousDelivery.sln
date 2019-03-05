@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTestFunction", "NewTestFunction\NewTestFunction.csproj", "{26664680-E937-4638-B859-F7B9E41456EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarewellFunction", "FarewellFunction\FarewellFunction.csproj", "{8D45FCD0-1B99-4159-BB5B-50F6FF419BE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{26664680-E937-4638-B859-F7B9E41456EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26664680-E937-4638-B859-F7B9E41456EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26664680-E937-4638-B859-F7B9E41456EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D45FCD0-1B99-4159-BB5B-50F6FF419BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D45FCD0-1B99-4159-BB5B-50F6FF419BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D45FCD0-1B99-4159-BB5B-50F6FF419BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D45FCD0-1B99-4159-BB5B-50F6FF419BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

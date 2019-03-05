@@ -1,0 +1,15 @@
+# Build azure functions app using devops
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: NuGetCommand@2
+  displayName: 'Restore nuget packages'
+  inputs:
+    restoreSolution: '**/*.sln'
+- task: VSBuild@1
+  displayName: 'Build solution'
+  inputs:
+    solution: '**/*.sln'
+    configuration: $(buildConfiguration)
